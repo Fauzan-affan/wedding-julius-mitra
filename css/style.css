@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 100vh;
+  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -1205,28 +1205,46 @@ form label {
 }
 
 .sosmed-groom {
-  display: flex; align-items: center;  margin-bottom: 1em; margin-left: 0.5em;
+  font-size: 20px;
+  margin: 2em 0;
+}
+
+.sosmed-groom .fb {
+  display: flex; justify-content: flex-end; align-items: center;
+}
+
+.sosmed-groom .ig {
+  display: flex; justify-content: flex-end; align-items: center;
 }
 
 .sosmed-bride {
-  display: flex; align-items: center; margin-bottom: 1em; margin-left: -0.6em;
+  font-size: 20px;
+  margin: 2em 0;
+}
+
+.sosmed-bride .fb {
+  display: flex; justify-content: flex-start; align-items: center;
+}
+
+.sosmed-bride .ig {
+  display: flex; justify-content: flex-start; align-items: center;
 }
 
 .quotes-wrapper {
-  padding-top: 5.5em;
+  padding-top: 2em;
 }
+
+.quotes h2 {
+  color: #000 !important;
+  font-size: 40px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: "Sacramento", Arial, serif;
+ }
 
 .attraction-wrapper {
   padding: 7em;
-}
-
-/* .quotes {
- margin-bottom: -8em; 
- background-color: #5bc0de;
-} */
-
-.quotes h2 {
- color: #000 !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -1243,16 +1261,17 @@ form label {
     text-align: center;
   }
 
-  .desc-groom .sosmed-groom {
-    padding: 0.5em 1em;
-    margin-bottom: 0;
-    /* background-color: #46b8da; */
+  .sosmed-groom .fb {
+    justify-content: center;
   }
-
-  .desc-bride .sosmed-bride {
-    padding: 0.5em 1em;
-    margin-bottom: 0;
-    /* background-color: #46b8da; */
+  .sosmed-groom .ig {
+    justify-content: center;
+  }
+  .sosmed-bride .fb {
+    justify-content: center;
+  }
+  .sosmed-bride .ig {
+    justify-content: center;
   }
 }
 
