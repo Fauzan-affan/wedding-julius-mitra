@@ -3,7 +3,7 @@ TITLE:
 Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by GetTemplates.co in collaboration with Aethel Design
 
 Website: http://gettemplates.co/
 Twitter: http://twitter.com/gettemplatesco
